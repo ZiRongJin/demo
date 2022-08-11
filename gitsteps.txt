@@ -26,4 +26,7 @@ git checkout
 
 git push
 
+git push --set-upstream origin main
+
 ssh -T git@github.com
+
