@@ -1,0 +1,29 @@
+ssh-keygen -t rsa -C kanekosakae@163.com
+
+git init
+
+git remote add origin https://github.com/ZiRongJin/demo.git
+
+git remote -v
+
+git remote add origin git@github.com:ZiRongJin/demo.git
+
+git clone https://github.com/ZiRongJin/demo.git
+
+git remote set-url origin  git@github.com:ZiRongJin/demo.git
+
+dir
+
+git add .
+
+rm 2.jpg
+
+rm -r db
+
+git commit -m test
+
+git checkout
+
+git push
+
+ssh -T git@github.com
